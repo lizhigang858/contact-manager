@@ -85,3 +85,6 @@ info All dependencies
 ✨  Done in 23.33s.
 
 ```
+
+### 2.逻辑
+这个项目需要用到mongo，所以我在kubernete上配置了一个mongo
