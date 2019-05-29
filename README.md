@@ -88,3 +88,12 @@ info All dependencies
 
 ### 2.逻辑
 这个项目需要用到mongo，所以我在kubernete上配置了一个mongo
+
+### 3.处理用户输入
+使用commander来编写基本的命令行框架，完成后可以执行如下命令测试
+```bash
+$ node contact.js --help # Shows you program description, usage, commands, actions, and aliases
+$ node contact.js --version # Shows the version number specified
+$ node contact.js addContact John Doe 013-452-3134 john.doe@contacto.com
+$ node contact.js r john # Notice we used r which is an alias for getContact.
+```
