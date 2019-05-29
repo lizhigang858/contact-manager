@@ -1,0 +1,14 @@
+{
+  "name": "contact-manager",
+  "version": "1.0.0",
+  "description": "A command-line contact management system",
+  "main": "index.js",
+  "repository": "https://github.com/lizhigang858/contact-manager.git",
+  "author": "li <lizhigang858@126.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "inquirer": "^6.3.1",
+    "mongoose": "^5.5.11"
+  }
+}
