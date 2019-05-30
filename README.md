@@ -97,3 +97,6 @@ $ node contact.js --version # Shows the version number specified
 $ node contact.js addContact John Doe 013-452-3134 john.doe@contacto.com
 $ node contact.js r john # Notice we used r which is an alias for getContact.
 ```
+
+### 4.与用户交互
+除了可以在程序开始时让用户输入参数，我们还可以在程序运行过程中与用户交互，这就要借助<code>inquirer.js</code>了
