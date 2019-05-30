@@ -100,3 +100,10 @@ $ node contact.js r john # Notice we used r which is an alias for getContact.
 
 ### 4.与用户交互
 除了可以在程序开始时让用户输入参数，我们还可以在程序运行过程中与用户交互，这就要借助<code>inquirer.js</code>了
+
+### 5.将程序转换为shell命令
+```bash
+$ yarn link # creates a symbolic link between project directory and executable command.
+$ contacto --help # Returns usage instructions.
+$ contacto r john # Returns user detail.
+```

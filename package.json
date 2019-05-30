@@ -6,6 +6,8 @@
   "repository": "https://github.com/lizhigang858/contact-manager.git",
   "author": "li <lizhigang858@126.com>",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": "./contact.js",
   "dependencies": {
     "commander": "^2.20.0",
     "inquirer": "^6.3.1",
