@@ -1,4 +1,5 @@
 # contact-manager
+原文https://scotch.io/tutorials/build-an-interactive-command-line-application-with-nodejs   
 项目使用yarn管理
 ```bash
 npm install -g yarn
